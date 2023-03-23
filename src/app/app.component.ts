@@ -8,3 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = '01_Angular_empty';
 }
+Array() {
+  this.veicolo.sort((a, b) => b.velocitamax - a.velocitamax);
+}
+
+stampArraylento(){
+  this.veicolo.sort((a,b) => a.velocitamax - b.velocitamax )
+}
